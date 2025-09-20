@@ -1,0 +1,39 @@
+name: kit
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+  gap: ^3.0.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/smallpic.png
+    - assets/images/fruitbasket.png
+    - assets/images/logo.png
+    - assets/images/dish1.png
+    - assets/images/dish2.png
+    - assets/images/dish3.png
+    - assets/images/dish4.png
+    - assets/images/currency.svg
+    - assets/images/logo.svg
+    - assets/images/basket.png
+    - assets/images/heart.svg
+    - assets/images/shopbag.svg
+    - assets/images/settings.png
+    - assets/images/filter.svg
